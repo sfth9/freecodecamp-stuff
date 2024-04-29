@@ -1,0 +1,173 @@
+/* HTML */
+<main id="main">
+  <link rel="stylesheet" href="styles.css">
+  <h1 id="title">Ceaseless Discharge</h1>
+  <p>Distorted Child of Chaos</p>
+  <figure id="img-div">
+    <img
+      id="image"
+      src="https://darksouls.wiki.fextralife.com/file/Dark-Souls/Ceaseless_Discharge_Extra.jpg"
+      alt="Ceaseless Discharge waiting in the lava"
+    />
+    <figcaption id="img-caption">
+      Ceaseless Discharge waits in the lava near one of his sister's graves, protecting her memory.
+    </figcaption>
+  </figure>
+  <section id="tribute-info">
+    <h3 id="headline">Here's are some facts about Ceaseless:</h3>
+    <ul>
+      <li> Cursed by the Chaos Flame to grow into a monstrosity</li>
+      <li>
+        Loves his family more than anything.
+      </li>
+      <li>
+        Youngest child of the Witch of Izalith
+      </li>
+      <li>
+        Lives in agony due to the Chaos distorting his body
+      </li>
+      <li>
+        His sisters cared for him greatly, and even made him a ring to alleviate the pain of his condition
+      </li>
+      <li>
+        He dropped the ring and lost it to the centipede demon, living his days in agony
+      </li>
+      <li>
+        Protects his sister Quelana's grave, caring only for family
+      </li>
+      <li>
+        Chases you to his death should you dishonor his sister's grave and try to run away
+      </li>
+      <li>
+        10/10 Overall awesome guy
+      </li>
+    </ul>
+    <figure id="img-div2">
+    <img
+      id="image"
+      src="https://darksouls.wiki.fextralife.com/file/Dark-Souls/Img0032.jpg"
+      alt="Ceaseless Discharge waiting in the lava"
+    />
+    <figcaption id="img-caption2">
+      Ceaseless Discharge is always on fire and he doesn't mind.
+    </figcaption>
+    <blockquote
+      <p>
+        "Yeah that guy is so cool and friendly."
+      </p>
+      <cite>-- Literally Everyone</cite>
+    </blockquote>
+    <h3>
+      If you have time, you should read more about this incredible Child of Chaos on his
+      <a
+        id="tribute-link"
+        href="https://darksouls.wiki.fextralife.com/Ceaseless+Discharge"
+        target="_blank"
+        >Wiki entry</a
+      >.
+    </h3>
+  </section>
+</main>
+
+/*CSS */
+html {
+  /* Setting a base font size of 10px give us easier rem calculations
+     Info: 1rem === 10px, 1.5rem === 15px, 2rem === 20px and so forth
+   */
+  font-size: 10px;
+}
+
+body {
+  /* Native font stack https://getbootstrap.com/docs/4.2/content/reboot/#native-font-stack */
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
+    'Helvetica Neue', Arial, sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  text-align: center;
+  color: #333;
+  margin: 0;
+}
+
+h1 {
+  font-size: 4rem;
+  margin-bottom: 0;
+}
+
+@media (max-width: 460px) {
+  h1 {
+    font-size: 3.5rem;
+    line-height: 1.2;
+  }
+}
+
+h2 {
+  font-size: 3.25rem;
+}
+
+a {
+  color: #477ca7;
+}
+
+a:visited {
+  color: #74638f;
+}
+
+#main {
+  margin: 30px 8px;
+  padding: 15px;
+  border-radius: 5px;
+  background: #eee;
+}
+
+@media (max-width: 460px) {
+  #main {
+    margin: 0;
+  }
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+}
+
+#img-div {
+  background: white;
+  padding: 10px;
+  margin: 0;
+}
+
+#img-caption {
+  margin: 15px 0 5px 0;
+}
+
+@media (max-width: 460px) {
+  #img-caption {
+    font-size: 1.4rem;
+  }
+}
+
+#headline {
+  margin: 50px 0;
+  text-align: center;
+}
+
+ul {
+  max-width: 550px;
+  margin: 0 auto 50px auto;
+  text-align: left;
+  line-height: 1.6;
+}
+
+li {
+  margin: 16px 0;
+}
+
+blockquote {
+  font-style: italic;
+  max-width: 545px;
+  margin: 50px auto 50px auto;
+  text-align: left;
+}
+
